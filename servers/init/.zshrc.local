@@ -100,3 +100,5 @@ alias g=git
 alias rzsh="source ~/.zshrc"
 alias r='openssl rand -base64 15'
 alias sship='cat ~/.ssh/config | grep -A 3'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -o -selection clipboard'

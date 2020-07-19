@@ -1,4 +1,4 @@
-# sudo apt install zsh curl git wget
+# sudo apt install zsh curl git wget xclip
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
 
