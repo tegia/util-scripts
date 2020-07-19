@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # author: cuongnguyen
 # Append kubectl config from other file
 # Usage:
