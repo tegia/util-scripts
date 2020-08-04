@@ -2,6 +2,8 @@ source "$HOME/.antigen.repo/antigen.zsh"
 
 antigen use oh-my-zsh
 
+DISABLE_AUTO_TITLE="true"
+
 antigen bundle git
 antigen bundle pip
 antigen bundle docker
