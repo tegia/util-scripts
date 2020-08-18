@@ -96,6 +96,11 @@ alias kctx='kubectl config set-context $(kubectl config current-context) --names
 # other alias
 alias venv2='virtualenv -p /usr/bin/python2.7 venv && source ./venv/bin/activate'
 alias venv3='virtualenv -p /usr/bin/python3.6 venv && source ./venv/bin/activate'
+alias mkenv='mkvirtualenv'
+alias lenv='lsvirtualenv'
+alias rmenv='rmvirtualenv'
+alias wk='workon'
+
 alias g=git
 alias rzsh="source ~/.zshrc"
 alias r='openssl rand -base64 15'
