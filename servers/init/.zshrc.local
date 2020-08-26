@@ -103,7 +103,7 @@ alias wk='workon'
 
 alias g=git
 alias rzsh="source ~/.zshrc"
-alias r='< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;'
+alias r='< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;'
 alias sship='cat ~/.ssh/config | grep -A 3'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -o -selection clipboard'
