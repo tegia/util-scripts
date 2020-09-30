@@ -2,7 +2,7 @@ setopt no_share_history
 setopt interactivecomments
 
 # setting for ubuntu
-source /etc/zsh_command_not_found
+[[ -r /etc/zsh_command_not_found ]] && source /etc/zsh_command_not_found
 
 # z - jump around
 export _Z_DATA=~/.zsh/z/z
