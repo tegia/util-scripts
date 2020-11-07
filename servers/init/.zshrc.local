@@ -73,7 +73,7 @@ alias dcompose=docker-compose
 alias dstopall='docker stop `docker ps -aq`'
 alias dexec='docker exec -it'
 alias dstart='docker start'
-alias dlog='docker logs --tail==100'
+alias dlog='docker logs --tail=100 -f'
 alias dps='docker ps --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}"'
 
 # alias for django
