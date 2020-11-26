@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# sudo apt-get install postgresql-client
+
 set -e
 
 # DB info
