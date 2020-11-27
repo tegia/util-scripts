@@ -14,6 +14,6 @@ DB_NAME='demo'
 BACKUP_FILE=$1
 
 echo "Starting restore database ${DB_NAME} from file ${BACKUP_FILE}"
-pg_restore -U ${DB_USER} -h ${DB_HOST} -p ${DB_PORT} -d ${DB_NAME} -1 ${BACKUP_FILE}
+export PGPASSWORD=${DB_PASSWORD}; pg_restore -U ${DB_USER} -h ${DB_HOST} -p ${DB_PORT} -d ${DB_NAME} -1 ${BACKUP_FILE}
 echo "Done!"
 
