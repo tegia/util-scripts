@@ -13,4 +13,4 @@ wget https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/ini
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $(whoami)
