@@ -107,6 +107,10 @@ alias sship='cat ~/.ssh/config | grep -A 3'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -o -selection clipboard'
 
+function cpf() {
+    cat $1 | xclip -selection clipboard
+}
+
 function r() {
     openssl rand -base64 ${1:-32} | sed -e "s/[\+=\/]/0/g"
 }
@@ -117,4 +121,8 @@ function sshu() {
 
 function sshr() {
     ssh root@${1}
+}
+
+function de() {
+    docker exec -it $1 sh -c "(bash || ash || sh)"
 }
