@@ -126,3 +126,21 @@ function sshr() {
 function de() {
     docker exec -it $1 sh -c "(bash || ash || sh)"
 }
+
+function ssh-config() {
+    cat <<EOT >> ~/.ssh/config
+
+Host $1
+    hostname $2 
+EOT
+
+    if [ "$3" ]
+    then
+        echo "    identityfile ~/.ssh/$3" >> ~/.ssh/config
+    fi
+
+    if [ "$4" ]
+    then
+        echo "    username $4" >> ~/.ssh/config
+    fi
+}
