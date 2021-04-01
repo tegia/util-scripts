@@ -12,6 +12,7 @@ antigen bundle command-not-found
 
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle superbrothers/zsh-kubectl-prompt
+antigen bundle zdharma/fast-syntax-highlighting
 
 antigen theme jispwoso
 
@@ -22,6 +23,14 @@ PROMPT='%{$fg[green]%}%n%{$reset_color%}@%{$fg[cyan]%}%m\
  %{$fg_bold[blue]%}$(git_prompt_info) %{$reset_color%}
 ${ret_status}%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+
+autoload -U colors; colors
+RPROMPT='%{$fg[yellow]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
+
+export WORKON_HOME=$HOME/.pyenv
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+[[ -r /usr/local/bin/virtualenvwrapper.sh ]] && source /usr/local/bin/virtualenvwrapper.sh
+
 
 # Aliases
 alias suser='su -'
