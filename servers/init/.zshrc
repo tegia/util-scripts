@@ -12,7 +12,6 @@ antigen bundle command-not-found
 
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle superbrothers/zsh-kubectl-prompt
-antigen bundle zdharma/fast-syntax-highlighting
 
 antigen theme jispwoso
 
