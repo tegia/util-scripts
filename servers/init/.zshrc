@@ -23,8 +23,6 @@ PROMPT='%{$fg[green]%}%n%{$reset_color%}@%{$fg[cyan]%}%m\
 ${ret_status}%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 
-autoload -U colors; colors
-RPROMPT='%{$fg[yellow]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
 
 export WORKON_HOME=$HOME/.pyenv
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
