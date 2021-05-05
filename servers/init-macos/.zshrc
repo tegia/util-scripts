@@ -11,7 +11,7 @@ antigen bundle autojump
 antigen bundle command-not-found
 
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle superbrothers/zsh-kubectl-prompt
+
 
 antigen theme jispwoso
 
