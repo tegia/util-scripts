@@ -25,7 +25,7 @@ PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 
 
 export WORKON_HOME=$HOME/.pyenv
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 [[ -r /usr/local/bin/virtualenvwrapper.sh ]] && source /usr/local/bin/virtualenvwrapper.sh
 
 
