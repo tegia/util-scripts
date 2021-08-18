@@ -2,7 +2,7 @@
 
 ## Install zsh
 ```
-curl -sL https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/init-ubuntu/init.sh | bash
+curl -sL https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init-ubuntu/init.sh | bash
 ```
 
 
