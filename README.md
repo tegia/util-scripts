@@ -1,10 +1,14 @@
 # util-scripts
 
-## Install zsh
+## Install zsh ubuntu
 ```
 curl -sL https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init-ubuntu/init.sh | bash
 ```
 
+## Install zsh ubuntu
+```
+curl -sL https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init-macos/init.sh | bash
+```
 
 ## Create swapfile
 
