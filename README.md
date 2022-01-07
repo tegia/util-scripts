@@ -5,7 +5,7 @@
 curl -sL https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init-ubuntu/init.sh | bash
 ```
 
-## Install zsh ubuntu
+## Install zsh macos
 ```
 curl -sL https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init-macos/init.sh | bash
 ```
