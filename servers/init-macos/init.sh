@@ -9,7 +9,7 @@ sudo pip3 install virtualenvwrapper
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
 
-wget https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/init/.zshrc -O ~/.zshrc
-wget https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/init/.zshrc.local -O ~/.zshrc.local
-wget https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/init/.gitconfig -O ~/.gitconfig
-wget https://raw.githubusercontent.com/cuongnb14/util-scripts/master/servers/init/.autoenv.sh -O ~/.autoenv.sh
+wget https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init/.zshrc -O ~/.zshrc
+wget https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init/.zshrc.local -O ~/.zshrc.local
+wget https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init/.gitconfig -O ~/.gitconfig
+wget https://raw.githubusercontent.com/tegia/util-scripts/master/servers/init/.autoenv.sh -O ~/.autoenv.sh
