@@ -4,7 +4,7 @@ brew install wget
 brew install coreutils
 brew instal pod
 brew install cocoapods
-
+brew install htop
 sudo pip3 install virtualenvwrapper
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
