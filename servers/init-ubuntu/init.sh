@@ -1,3 +1,4 @@
+sudo apt install guake
 sudo apt install zsh curl git wget xclip autojump python3-pip vim
 
 sudo pip3 install virtualenvwrapper
