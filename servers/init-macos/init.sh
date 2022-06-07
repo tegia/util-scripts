@@ -5,6 +5,10 @@ brew install coreutils
 brew instal pod
 brew install cocoapods
 brew install htop
+brew install --cask slack
+brew install --cask discord
+brew install --cask skype
+brew install --cask telegram
 sudo pip3 install virtualenvwrapper
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
