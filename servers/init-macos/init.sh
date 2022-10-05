@@ -2,7 +2,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install wget
 brew install coreutils
-brew install pod
 brew install cocoapods
 brew install htop
 brew install --cask slack
