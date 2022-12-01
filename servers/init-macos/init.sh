@@ -3,6 +3,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew install wget
 brew install coreutils
 brew install cocoapods
+brew install python
 brew install htop
 brew install --cask slack
 brew install --cask discord
