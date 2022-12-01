@@ -5,8 +5,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 setopt no_share_history
 setopt interactivecomments
 
-# setting for ubuntu
-[[ -r /etc/zsh_command_not_found ]] && source /etc/zsh_command_not_found
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # z - jump around
 export _Z_DATA=~/.zsh/z/z
