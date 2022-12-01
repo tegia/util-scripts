@@ -11,6 +11,7 @@ brew install --cask skype
 brew install --cask telegram
 brew install autojump
 brew install --cask iterm2
+brew install --cask docker
 brew install --cask visual-studio-code
 sudo pip3 install virtualenvwrapper
 
