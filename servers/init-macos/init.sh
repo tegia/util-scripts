@@ -10,6 +10,7 @@ brew install --cask skype
 brew install --cask telegram
 brew install autojump
 brew install --cask iterm2
+brew install --cask visual-studio-code
 sudo pip3 install virtualenvwrapper
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
