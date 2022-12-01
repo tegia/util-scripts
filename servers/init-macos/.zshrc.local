@@ -5,6 +5,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 setopt no_share_history
 setopt interactivecomments
 
+plugins=(git zsh-autosuggestions)
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # z - jump around
