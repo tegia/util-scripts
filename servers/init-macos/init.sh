@@ -8,6 +8,8 @@ brew install --cask slack
 brew install --cask discord
 brew install --cask skype
 brew install --cask telegram
+brew install autojump
+brew install --cask iterm2
 sudo pip3 install virtualenvwrapper
 
 git clone https://github.com/zsh-users/antigen.git ~/.antigen.repo
